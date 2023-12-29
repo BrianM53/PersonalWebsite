@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: #777;
+}
+
+html {
+    background-color: whitesmoke;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: whitesmoke;
+    border: 3px solid rgb(150, 150, 150);
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+    padding: auto;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .7em;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: #b3b3b3;
+}
+
+.main-nav {
+    font-size: 1.5em;
+    border-bottom: 5px solid rgba(129, 129, 129, 0.527);
+}
+
+.donate-button {
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.donate-button a {
+    display: inline-block;
+    background-color: #2d80da; 
+    color: whitesmoke; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 3px solid rgb(150, 150, 150); 
+    text-decoration: none;
+}
+
+.main-header {
+    background-image: url("banner.png");
+    background-size: cover;
+    text-align: center; 
+    font-size: 2em;
+    padding: 20px;
+    padding-bottom: 30px;
+    border-bottom: 5px solid rgb(150, 150, 150);
+}
+
+.profile-image-circ {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 50px; 
+    border: 5px solid rgb(150, 150, 150);
+}
+
+.profile-image-rect {
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 50px; 
+    border: 5px solid rgb(150, 150, 150);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-bubble {
+    font-size: 1.5em;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    flex-grow: 1; 
+    border: 5px solid rgb(150, 150, 150);
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+h1 {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    flex-grow: 1; 
+    border: 5px solid rgb(150, 150, 150);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+.main-footer {
+    background-image: url("footer.png");
+    background-size: cover;
+    text-align: center; 
+    font-size: 2em;
+    padding: 10px;
+    padding-top: 10x;
+    border-top: 5px solid rgb(150, 150, 150);
+    margin-top: 40px;
+}
+
+.main-footer h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 1.2em;
+    color: whitesmoke;
+}
